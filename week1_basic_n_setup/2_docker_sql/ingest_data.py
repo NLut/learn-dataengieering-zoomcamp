@@ -11,13 +11,13 @@ from sqlalchemy import create_engine
 
 
 def main(params):
-    user = params.user
-    password = params.password
+    user = params.user #username
+    password = params.password #password
     host = params.host #host name
-    port = params.port 
+    port = params.port #host port
     db = params.db #db name
     table_name = params.table_name
-    url = params.url
+    url = params.url #file url
     i_name = "yellow_taxi.parquet"
     o_name = "yellow_taxi.csv"
 
